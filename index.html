@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styels.css">
+    <script src="script.js"></script>
+    <title>AGE CALCULATOR</title>
+</head>
+<body>
+    <div class="container">
+        <div class="ageCalculator">
+            <form name="agecal" onsubmit="return ageCalculator()">
+                <div class="heading">
+                    <p>AGE CALCULATOR</p>
+                </div>
+                <div class="calculatorBody">
+
+                    <div class="addBirthday">
+                        <div class="date"><input type="date" id="birthday" name="birthday"></div>
+                        <div class="submitButton"><input type="submit" value="Calculate"></div>
+                    </div>
+
+                    <div class="resultHeader">
+                        <span>Your Age  Till Today</span>
+                    </div>
+
+                    <div class="results">
+                        <div class="years">
+                            <p id="years">0</p>
+                            <span>Years</span>
+                        </div>
+
+                        <div class="months">
+                            <p id="months">0</p>
+                            <span>Months</span>
+                        </div>
+
+                        <div class="days">
+                            <p id="days">0</p>
+                            <span>Days</span>
+                        </div>
+                    </div>
+
+                </div>
+
+            </form>
+        </div>
+    </div>
+</body>
+</html>
